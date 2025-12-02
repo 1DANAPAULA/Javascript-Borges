@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="add-remove-elements.js"></script>
+</head>
+<body>
+    <h1>Exercicio 02</h1>
+    <p id="meuParagrafo">Texto original</p>
+    <button onclick="alterarTexto()">Alterar texto</button>
+</body>
+
+<script>
+    function alterarTexto(){
+        //Selecionar o elemento p
+        let paragrafo = window.document.getElementById("meuParagrafo")
+        //alterar texto
+        paragrafo.innerText = "Texto Alterado"
+    }
+</script>
+
+</html>
